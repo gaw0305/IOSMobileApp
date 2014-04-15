@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7106E3F18FDDAB6004E9184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7106E3E18FDDAB6004E9184 /* Main.storyboard */; };
 		F7691CD818FDC3C1004C0D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7691CD718FDC3C1004C0D4E /* Foundation.framework */; };
 		F7691CDA18FDC3C1004C0D4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7691CD918FDC3C1004C0D4E /* CoreGraphics.framework */; };
 		F7691CDC18FDC3C1004C0D4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7691CDB18FDC3C1004C0D4E /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7106E3E18FDDAB6004E9184 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F7691CD418FDC3C0004C0D4E /* Wordy Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wordy Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7691CD718FDC3C1004C0D4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F7691CD918FDC3C1004C0D4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +79,7 @@
 		F7691CCB18FDC3BF004C0D4E = {
 			isa = PBXGroup;
 			children = (
+				F7106E3E18FDDAB6004E9184 /* Main.storyboard */,
 				F7691CDD18FDC3C1004C0D4E /* Wordy Time */,
 				F7691CF618FDC3C5004C0D4E /* Wordy TimeTests */,
 				F7691CD618FDC3C0004C0D4E /* Frameworks */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7106E3F18FDDAB6004E9184 /* Main.storyboard in Resources */,
 				F7691CE218FDC3C3004C0D4E /* InfoPlist.strings in Resources */,
 				F7691CEA18FDC3C4004C0D4E /* Images.xcassets in Resources */,
 			);
@@ -360,10 +364,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wordy Time/Wordy Time-Prefix.pch";
 				INFOPLIST_FILE = "Wordy Time/Wordy Time-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,10 +379,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wordy Time/Wordy Time-Prefix.pch";
 				INFOPLIST_FILE = "Wordy Time/Wordy Time-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -440,6 +448,7 @@
 				F7691D0218FDC3C5004C0D4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7691D0318FDC3C5004C0D4E /* Build configuration list for PBXNativeTarget "Wordy TimeTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +457,7 @@
 				F7691D0518FDC3C5004C0D4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
